@@ -56,10 +56,10 @@
             this.CB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.CB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CB.Font = new System.Drawing.Font("Gadugi", 12F);
-            this.CB.Location = new System.Drawing.Point(34, 148);
+            this.CB.Location = new System.Drawing.Point(34, 164);
             this.CB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CB.Name = "CB";
-            this.CB.Size = new System.Drawing.Size(156, 64);
+            this.CB.Size = new System.Drawing.Size(142, 64);
             this.CB.TabIndex = 4;
             this.CB.Text = "C";
             this.CB.UseVisualStyleBackColor = false;
@@ -70,7 +70,7 @@
             this.vorzeichenB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.vorzeichenB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.vorzeichenB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vorzeichenB.Location = new System.Drawing.Point(210, 148);
+            this.vorzeichenB.Location = new System.Drawing.Point(182, 164);
             this.vorzeichenB.Name = "vorzeichenB";
             this.vorzeichenB.Size = new System.Drawing.Size(68, 64);
             this.vorzeichenB.TabIndex = 24;
@@ -83,7 +83,7 @@
             this.divB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.divB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.divB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.divB.Location = new System.Drawing.Point(297, 148);
+            this.divB.Location = new System.Drawing.Point(257, 164);
             this.divB.Name = "divB";
             this.divB.Size = new System.Drawing.Size(68, 64);
             this.divB.TabIndex = 25;
@@ -99,7 +99,7 @@
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(34, 80);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(331, 71);
+            this.textBox1.Size = new System.Drawing.Size(290, 71);
             this.textBox1.TabIndex = 26;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -112,7 +112,7 @@
             this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(34, 28);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(331, 57);
+            this.textBox2.Size = new System.Drawing.Size(290, 57);
             this.textBox2.TabIndex = 27;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
@@ -135,7 +135,7 @@
             this.achtB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.achtB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.achtB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.achtB.Location = new System.Drawing.Point(122, 236);
+            this.achtB.Location = new System.Drawing.Point(108, 236);
             this.achtB.Name = "achtB";
             this.achtB.Size = new System.Drawing.Size(68, 64);
             this.achtB.TabIndex = 29;
@@ -148,7 +148,7 @@
             this.neunB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.neunB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.neunB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.neunB.Location = new System.Drawing.Point(210, 236);
+            this.neunB.Location = new System.Drawing.Point(182, 236);
             this.neunB.Name = "neunB";
             this.neunB.Size = new System.Drawing.Size(68, 64);
             this.neunB.TabIndex = 30;
@@ -161,7 +161,7 @@
             this.multiB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.multiB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.multiB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.multiB.Location = new System.Drawing.Point(297, 236);
+            this.multiB.Location = new System.Drawing.Point(256, 236);
             this.multiB.Name = "multiB";
             this.multiB.Size = new System.Drawing.Size(68, 64);
             this.multiB.TabIndex = 31;
@@ -174,7 +174,7 @@
             this.vierB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.vierB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.vierB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vierB.Location = new System.Drawing.Point(34, 324);
+            this.vierB.Location = new System.Drawing.Point(34, 306);
             this.vierB.Name = "vierB";
             this.vierB.Size = new System.Drawing.Size(68, 64);
             this.vierB.TabIndex = 32;
@@ -187,7 +187,7 @@
             this.fünfB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.fünfB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.fünfB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.fünfB.Location = new System.Drawing.Point(122, 324);
+            this.fünfB.Location = new System.Drawing.Point(108, 306);
             this.fünfB.Name = "fünfB";
             this.fünfB.Size = new System.Drawing.Size(68, 64);
             this.fünfB.TabIndex = 33;
@@ -200,7 +200,7 @@
             this.sechsB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.sechsB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.sechsB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.sechsB.Location = new System.Drawing.Point(210, 324);
+            this.sechsB.Location = new System.Drawing.Point(182, 306);
             this.sechsB.Name = "sechsB";
             this.sechsB.Size = new System.Drawing.Size(68, 64);
             this.sechsB.TabIndex = 34;
@@ -213,7 +213,7 @@
             this.minusB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.minusB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.minusB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.minusB.Location = new System.Drawing.Point(297, 324);
+            this.minusB.Location = new System.Drawing.Point(256, 306);
             this.minusB.Name = "minusB";
             this.minusB.Size = new System.Drawing.Size(68, 64);
             this.minusB.TabIndex = 35;
@@ -226,7 +226,7 @@
             this.EinsB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.EinsB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.EinsB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EinsB.Location = new System.Drawing.Point(34, 412);
+            this.EinsB.Location = new System.Drawing.Point(34, 376);
             this.EinsB.Name = "EinsB";
             this.EinsB.Size = new System.Drawing.Size(68, 64);
             this.EinsB.TabIndex = 36;
@@ -239,7 +239,7 @@
             this.ZweiB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ZweiB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ZweiB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ZweiB.Location = new System.Drawing.Point(122, 412);
+            this.ZweiB.Location = new System.Drawing.Point(108, 376);
             this.ZweiB.Name = "ZweiB";
             this.ZweiB.Size = new System.Drawing.Size(68, 64);
             this.ZweiB.TabIndex = 37;
@@ -252,7 +252,7 @@
             this.dreiB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dreiB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dreiB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dreiB.Location = new System.Drawing.Point(210, 412);
+            this.dreiB.Location = new System.Drawing.Point(182, 376);
             this.dreiB.Name = "dreiB";
             this.dreiB.Size = new System.Drawing.Size(68, 64);
             this.dreiB.TabIndex = 38;
@@ -265,7 +265,7 @@
             this.nullB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.nullB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.nullB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nullB.Location = new System.Drawing.Point(34, 498);
+            this.nullB.Location = new System.Drawing.Point(34, 446);
             this.nullB.Name = "nullB";
             this.nullB.Size = new System.Drawing.Size(68, 73);
             this.nullB.TabIndex = 39;
@@ -278,7 +278,7 @@
             this.decimalB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.decimalB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.decimalB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.decimalB.Location = new System.Drawing.Point(122, 498);
+            this.decimalB.Location = new System.Drawing.Point(108, 446);
             this.decimalB.Name = "decimalB";
             this.decimalB.Size = new System.Drawing.Size(68, 73);
             this.decimalB.TabIndex = 40;
@@ -291,7 +291,7 @@
             this.addB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addB.Location = new System.Drawing.Point(297, 412);
+            this.addB.Location = new System.Drawing.Point(256, 376);
             this.addB.Name = "addB";
             this.addB.Size = new System.Drawing.Size(68, 64);
             this.addB.TabIndex = 41;
@@ -304,9 +304,9 @@
             this.ergebnisB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ergebnisB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ergebnisB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ergebnisB.Location = new System.Drawing.Point(210, 498);
+            this.ergebnisB.Location = new System.Drawing.Point(182, 446);
             this.ergebnisB.Name = "ergebnisB";
-            this.ergebnisB.Size = new System.Drawing.Size(155, 73);
+            this.ergebnisB.Size = new System.Drawing.Size(142, 73);
             this.ergebnisB.TabIndex = 42;
             this.ergebnisB.Text = "=";
             this.ergebnisB.UseVisualStyleBackColor = false;
@@ -317,7 +317,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 39F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.ClientSize = new System.Drawing.Size(396, 594);
+            this.ClientSize = new System.Drawing.Size(358, 547);
             this.Controls.Add(this.ergebnisB);
             this.Controls.Add(this.addB);
             this.Controls.Add(this.decimalB);
