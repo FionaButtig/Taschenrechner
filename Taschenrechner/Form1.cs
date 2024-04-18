@@ -81,40 +81,43 @@ namespace Taschenrechner
 
         private void ergebnisB_Click(object sender, EventArgs e)
         {
-            num2 = Convert.ToDouble(textBox1.Text);
-
-            switch (op)
+            if (!string.IsNullOrEmpty(textBox1.Text))
             {
-                case "+":
-                    {
-                        ergebnis = (num1 + num2).ToString();
-                        textBox1.Text = (num1 + num2).ToString();
+                num2 = Convert.ToDouble(textBox1.Text);
+
+                switch (op)
+                {
+                    case "+":
+                        {
+                            ergebnis = (num1 + num2).ToString();
+                            textBox1.Text = (num1 + num2).ToString();
+                            textBox2.Clear();
+                            break;
+                        }
+                    case "-":
+                        ergebnis = (num1 - num2).ToString();
+                        textBox1.Text = (num1 - num2).ToString();
                         textBox2.Clear();
                         break;
-                    }
-                case "-":
-                    ergebnis = (num1 - num2).ToString();
-                    textBox1.Text = (num1 - num2).ToString();
-                    textBox2.Clear();
-                    break;
 
-                case "/":
-                    ergebnis = (num1 / num2).ToString();
-                    textBox1.Text = (num1 / num2).ToString();
-                    textBox2.Clear();
-                    break;
+                    case "/":
+                        ergebnis = (num1 / num2).ToString();
+                        textBox1.Text = (num1 / num2).ToString();
+                        textBox2.Clear();
+                        break;
 
-                case "*":
-                    ergebnis = (num1 * num2).ToString();
-                    textBox1.Text = (num1 * num2).ToString();
-                    textBox2.Clear();
-                    break;
-                default:
-                    break;
+                    case "*":
+                        ergebnis = (num1 * num2).ToString();
+                        textBox1.Text = (num1 * num2).ToString();
+                        textBox2.Clear();
+                        break;
+                    default:
+                        break;
+                }
+
+                num1 = 0;
+                num2 = 0;
             }
-
-            num1 = 0;
-            num2 = 0;
         }
 
 
